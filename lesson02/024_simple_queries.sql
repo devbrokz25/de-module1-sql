@@ -10,6 +10,7 @@ SELECT MIN(unit_price)
 FROM products
 WHERE units_in_stock > 30
 
+-- some changes added
 SELECT MAX(units_in_stock)
 FROM products
 WHERE unit_price > 30
